@@ -1,0 +1,624 @@
+2024-12-02 10:44:45.657325: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+There are 1 GPU(s) available.
+We will use the GPU: NVIDIA GeForce RTX 4070 Ti
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+C:\Users\PC\anaconda3\Lib\site-packages\transformers\optimization.py:591: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+
+
+======== Epoch 1 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.64
+  Training epoch took: 0:02:03
+Saving model at epoch 1...
+Model saved as model_epoch_1.bin
+
+Running Validation...
+  Accuracy: 0.80
+  Validation took: 0:00:04
+
+======== Epoch 2 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.44
+  Training epoch took: 0:02:02
+Saving model at epoch 2...
+Model saved as model_epoch_2.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 3 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.34
+  Training epoch took: 0:02:03
+Saving model at epoch 3...
+Model saved as model_epoch_3.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 4 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.26
+  Training epoch took: 0:02:02
+Saving model at epoch 4...
+Model saved as model_epoch_4.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 5 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.21
+  Training epoch took: 0:02:03
+Saving model at epoch 5...
+Model saved as model_epoch_5.bin
+
+Running Validation...
+  Accuracy: 0.81
+  Validation took: 0:00:04
+
+======== Epoch 6 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.16
+  Training epoch took: 0:02:03
+Saving model at epoch 6...
+Model saved as model_epoch_6.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 7 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.14
+  Training epoch took: 0:02:02
+Saving model at epoch 7...
+Model saved as model_epoch_7.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 8 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.13
+  Training epoch took: 0:02:02
+Saving model at epoch 8...
+Model saved as model_epoch_8.bin
+
+Running Validation...
+  Accuracy: 0.81
+  Validation took: 0:00:04
+
+======== Epoch 9 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.11
+  Training epoch took: 0:02:03
+Saving model at epoch 9...
+Model saved as model_epoch_9.bin
+
+Running Validation...
+  Accuracy: 0.81
+  Validation took: 0:00:04
+
+======== Epoch 10 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.11
+  Training epoch took: 0:02:02
+Saving model at epoch 10...
+Model saved as model_epoch_10.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 11 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.10
+  Training epoch took: 0:02:02
+Saving model at epoch 11...
+Model saved as model_epoch_11.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 12 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.08
+  Training epoch took: 0:02:02
+Saving model at epoch 12...
+Model saved as model_epoch_12.bin
+
+Running Validation...
+  Accuracy: 0.81
+  Validation took: 0:00:04
+
+======== Epoch 13 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.08
+  Training epoch took: 0:02:02
+Saving model at epoch 13...
+Model saved as model_epoch_13.bin
+
+Running Validation...
+  Accuracy: 0.81
+  Validation took: 0:00:04
+
+======== Epoch 14 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.07
+  Training epoch took: 0:02:02
+Saving model at epoch 14...
+Model saved as model_epoch_14.bin
+
+Running Validation...
+  Accuracy: 0.81
+  Validation took: 0:00:04
+
+======== Epoch 15 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.07
+  Training epoch took: 0:02:03
+Saving model at epoch 15...
+Model saved as model_epoch_15.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 16 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.06
+  Training epoch took: 0:02:02
+Saving model at epoch 16...
+Model saved as model_epoch_16.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 17 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.06
+  Training epoch took: 0:02:03
+Saving model at epoch 17...
+Model saved as model_epoch_17.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 18 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.06
+  Training epoch took: 0:02:02
+Saving model at epoch 18...
+Model saved as model_epoch_18.bin
+
+Running Validation...
+  Accuracy: 0.81
+  Validation took: 0:00:04
+
+======== Epoch 19 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.06
+  Training epoch took: 0:02:02
+Saving model at epoch 19...
+Model saved as model_epoch_19.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 20 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.05
+  Training epoch took: 0:02:03
+Saving model at epoch 20...
+Model saved as model_epoch_20.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 21 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.05
+  Training epoch took: 0:02:02
+Saving model at epoch 21...
+Model saved as model_epoch_21.bin
+
+Running Validation...
+  Accuracy: 0.83
+  Validation took: 0:00:04
+
+======== Epoch 22 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.04
+  Training epoch took: 0:02:02
+Saving model at epoch 22...
+Model saved as model_epoch_22.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 23 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.04
+  Training epoch took: 0:02:03
+Saving model at epoch 23...
+Model saved as model_epoch_23.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 24 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.04
+  Training epoch took: 0:02:03
+Saving model at epoch 24...
+Model saved as model_epoch_24.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 25 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.04
+  Training epoch took: 0:02:02
+Saving model at epoch 25...
+Model saved as model_epoch_25.bin
+
+Running Validation...
+  Accuracy: 0.81
+  Validation took: 0:00:04
+
+======== Epoch 26 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.04
+  Training epoch took: 0:02:02
+Saving model at epoch 26...
+Model saved as model_epoch_26.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 27 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.04
+  Training epoch took: 0:02:02
+Saving model at epoch 27...
+Model saved as model_epoch_27.bin
+
+Running Validation...
+  Accuracy: 0.83
+  Validation took: 0:00:04
+
+======== Epoch 28 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.04
+  Training epoch took: 0:02:03
+Saving model at epoch 28...
+Model saved as model_epoch_28.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 29 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:02
+Saving model at epoch 29...
+Model saved as model_epoch_29.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 30 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:02
+Saving model at epoch 30...
+Model saved as model_epoch_30.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 31 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:02
+Saving model at epoch 31...
+Model saved as model_epoch_31.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 32 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:02
+Saving model at epoch 32...
+Model saved as model_epoch_32.bin
+
+Running Validation...
+  Accuracy: 0.83
+  Validation took: 0:00:04
+
+======== Epoch 33 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:02
+Saving model at epoch 33...
+Model saved as model_epoch_33.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 34 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:03
+Saving model at epoch 34...
+Model saved as model_epoch_34.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 35 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:02
+Saving model at epoch 35...
+Model saved as model_epoch_35.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 36 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:03
+Saving model at epoch 36...
+Model saved as model_epoch_36.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 37 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:03
+Saving model at epoch 37...
+Model saved as model_epoch_37.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 38 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:03
+Saving model at epoch 38...
+Model saved as model_epoch_38.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 39 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:02
+Saving model at epoch 39...
+Model saved as model_epoch_39.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 40 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.03
+  Training epoch took: 0:02:03
+Saving model at epoch 40...
+Model saved as model_epoch_40.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 41 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:03
+Saving model at epoch 41...
+Model saved as model_epoch_41.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 42 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:02
+Saving model at epoch 42...
+Model saved as model_epoch_42.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 43 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:03
+Saving model at epoch 43...
+Model saved as model_epoch_43.bin
+
+Running Validation...
+  Accuracy: 0.83
+  Validation took: 0:00:04
+
+======== Epoch 44 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:02
+Saving model at epoch 44...
+Model saved as model_epoch_44.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 45 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:03
+Saving model at epoch 45...
+Model saved as model_epoch_45.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 46 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:02
+Saving model at epoch 46...
+Model saved as model_epoch_46.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 47 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:03
+Saving model at epoch 47...
+Model saved as model_epoch_47.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 48 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:03
+Saving model at epoch 48...
+Model saved as model_epoch_48.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 49 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:03
+Saving model at epoch 49...
+Model saved as model_epoch_49.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+
+======== Epoch 50 / 50 ========
+Training...
+  Batch   500  of    740.    Elapsed: 0:01:23.
+  Average training loss: 0.02
+  Training epoch took: 0:02:02
+Saving model at epoch 50...
+Model saved as model_epoch_50.bin
+
+Running Validation...
+  Accuracy: 0.82
+  Validation took: 0:00:04
+Saving model at epoch 50...
+Model saved as final_model.bin
+
+Training complete!
+  Batch   100  of    823.    Elapsed: 0:00:04.
+  Batch   200  of    823.    Elapsed: 0:00:09.
+  Batch   300  of    823.    Elapsed: 0:00:13.
+  Batch   400  of    823.    Elapsed: 0:00:18.
+  Batch   500  of    823.    Elapsed: 0:00:22.
+  Batch   600  of    823.    Elapsed: 0:00:26.
+  Batch   700  of    823.    Elapsed: 0:00:31.
+  Batch   800  of    823.    Elapsed: 0:00:35.
+
+Accuracy: 0.97
+Test took: 0:00:36
